@@ -1,8 +1,8 @@
 # CURSOR
-** select language which is not filled with 5. Make up all vacancy with data of selected language. **
+> select language which is not filled with 5. Make up all vacancy with data of selected language.**
 
 
-
+```
 DECLARE @ID int
 
 DECLARE CategoryDetailCursor CURSOR FOR 
@@ -24,5 +24,4 @@ END
 
 CLOSE CategoryDetailCursor
 deallocate CategoryDetailCursor
-
-//sql
+```
